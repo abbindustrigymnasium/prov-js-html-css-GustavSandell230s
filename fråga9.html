@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <title>Fråga 9</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
-
 <body>
-    <!-- Här ska din HTML kod vara -->
-
-    <script>
-        // Här ska din JavaScript kod vara
-
-
-    </script>
+    <img src="" alt="" id="myImg">
+    <button onclick="showImage()">Click me</button>
 </body>
-
+<style>
+    .adress{
+        width: 50px;
+        height: 50px;
+        src: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.357-11ogSSmq3SObeEVZ9AHaE3%26pid%3DApi&f=1&ipt=bc50d43de6b68c1158fe5e31d5c088977d0d585307515042ae3daa89e889aec6&ipo=images";
+    }
+</style>
+<script>
+    function showImage(){
+        x = prompt("insert img:")
+        document.getElementById("myImg").src = x;
+    } 
+</script>
 </html>
